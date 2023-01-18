@@ -1,0 +1,14 @@
+require:
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 3.2
+  NewCops: disable
+  Exclude:
+    - bin/*
+    - vendor/**/*
+    - db/*
+
+Style/Documentation:
+  Enabled: false
