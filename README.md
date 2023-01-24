@@ -1,24 +1,23 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# TaskManager
+## Getting Started
+### Prerequisites
+* Ruby 3.2.0
+* PostgreSQL
+### Installation
+1. Clone the repo
+2. Install gems
+```sh
+bundle install
+```
+3. Create database
+```sh
+rails db:create
+```
+4. Run migrations
+```sh
+rails db:migrate
+```
+5.Run the server
+```sh
+rails s
+```

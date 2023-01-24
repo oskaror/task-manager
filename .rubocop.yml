@@ -10,5 +10,24 @@ AllCops:
     - vendor/**/*
     - db/*
 
+Layout/HashAlignment:
+  EnforcedColonStyle: table
+  EnforcedHashRocketStyle: table
+
 Style/Documentation:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: never
+
+RSpec/NamedSubject:
+  Enabled: false
+
+RSpec/MultipleExpectations:
   Enabled: false
